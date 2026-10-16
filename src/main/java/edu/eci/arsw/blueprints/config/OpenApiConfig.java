@@ -11,8 +11,8 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI api() {
         return new OpenAPI().info(new Info()
-                .title("ARSW Blueprints API")
-                .version("v1")
-                .description("Blueprints Laboratory (Java 21 / Spring Boot 3.3.x)"));
+                .title("ARSW Blueprints API - Parcial 2 corte")
+                .version("1.0")
+                .description("Blueprints Parcial 2 corte"));
     }
 }
